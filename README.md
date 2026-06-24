@@ -1,24 +1,26 @@
-Weather App
+E-Commerce Website
 
-A responsive Weather Application built using React and Vite. This application allows users to search for any city and view real-time weather information such as temperature, humidity, wind speed, and weather conditions.
+A modern and responsive E-Commerce Website developed using web technologies to provide users with a seamless online shopping experience. The application allows users to browse products, view product details, add items to the cart, and manage purchases through an intuitive interface.
 
 Features
 
-- Search weather by city name
-- Display current temperature
-- Show humidity and wind speed
-- Responsive user interface
-- Real-time weather data using API
-- User-friendly design
+- User-friendly and responsive design
+- Product listing and product details page
+- Add to Cart functionality
+- Shopping cart management
+- Product search and filtering
+- Category-wise product display
+- Mobile-friendly interface
+- Fast and interactive user experience
 
 Technologies Used
 
 - React.js
-- Vite
 - JavaScript
 - HTML5
 - CSS3
-- Weather API
+- Vite
+- REST API (if applicable)
 
 Installation
 
@@ -26,36 +28,58 @@ Installation
 
 git clone <repository-url>
 
-2. Navigate to the project folder:
+2. Navigate to the project directory:
 
-cd weather-app
+cd ecommerce-website
 
 3. Install dependencies:
 
 npm install
 
-4. Start the development server:
+4. Run the development server:
 
 npm run dev
 
 Project Structure
 
-weather-app/
+ecommerce-website/
 ├── public/
 ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.jsx
 ├── package.json
 ├── vite.config.js
 └── README.md
 
+Key Modules
+
+- Home Page
+- Product Listing
+- Product Details
+- Shopping Cart
+- Search and Filter
+- Responsive Navigation
+
 Future Enhancements
 
-- 7-day weather forecast
-- Current location weather
-- Dark mode support
-- Weather alerts and notifications
+- User Authentication
+- Wishlist Feature
+- Payment Gateway Integration
+- Order Tracking
+- Product Reviews and Ratings
+- Admin Dashboard
+
+Learning Outcomes
+
+- Frontend development using React
+- Component-based architecture
+- State management
+- API integration
+- Responsive web design
 
 Author
 
 Poornachandrika S
-
 B.Sc. Information Technology
